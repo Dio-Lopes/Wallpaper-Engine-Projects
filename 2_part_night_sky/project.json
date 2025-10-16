@@ -1,0 +1,30 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "Simply a 2 part version of the Dual Monitor Night Sky wallpaper by Loopedmaluch1 (https://steamcommunity.com/profiles/76561199002514920/)\n\nSecond part here:\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3586894862",
+	"file" : "scene.json",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0.39216 0.21961 0.73725"
+			}
+		}
+	},
+	"preview" : "preview.jpg",
+	"ratingsex" : "none",
+	"ratingviolence" : "none",
+	"snapshotformat" : -1,
+	"snapshotoverlay" : "",
+	"tags" : [ "Relaxing" ],
+	"title" : "2 Part Night Sky (Watchtower)",
+	"type" : "scene",
+	"version" : 2,
+	"visibility" : "public",
+	"workshopid" : "3586902297",
+	"workshopurl" : "steam://url/CommunityFilePage/3586902297"
+}

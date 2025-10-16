@@ -1,0 +1,313 @@
+{
+	"camera" : 
+	{
+		"center" : "187.12143 -264.23706 -1.00000",
+		"eye" : "187.12143 -264.23706 0.00000",
+		"up" : "0.00000 1.00000 0.00000"
+	},
+	"general" : 
+	{
+		"ambientcolor" : "0.30000 0.30000 0.30000",
+		"bloom" : true,
+		"bloomhdrfeather" : 0.1,
+		"bloomhdriterations" : 8,
+		"bloomhdrscatter" : 1.619,
+		"bloomhdrstrength" : 2.0,
+		"bloomhdrthreshold" : 1.0,
+		"bloomstrength" : 0.34999999,
+		"bloomthreshold" : 0.92000002,
+		"bloomtint" : "1.00000 1.00000 1.00000",
+		"camerafade" : true,
+		"cameraparallax" : false,
+		"cameraparallaxamount" : 0.5,
+		"cameraparallaxdelay" : 0.1,
+		"cameraparallaxmouseinfluence" : 0.5,
+		"camerapreview" : true,
+		"camerashake" : false,
+		"camerashakeamplitude" : 0.5,
+		"camerashakeroughness" : 1.0,
+		"camerashakespeed" : 3.0,
+		"clearcolor" : "0.70000 0.70000 0.70000",
+		"clearenabled" : true,
+		"farz" : 10000.0,
+		"fov" : 50.0,
+		"gravitydirection" : "0.00000 -1.00000 0.00000",
+		"gravitystrength" : 1.0,
+		"hdr" : false,
+		"nearz" : 0.0099999998,
+		"orthogonalprojection" : 
+		{
+			"height" : 1080,
+			"width" : 1920
+		},
+		"perspectiveoverridefov" : 95.0,
+		"skylightcolor" : "0.30000 0.30000 0.30000",
+		"winddirection" : "0.70700 0.70700 0.00000",
+		"windenabled" : false,
+		"windstrength" : 1.0,
+		"zoom" : 1.0
+	},
+	"objects" : 
+	[
+		{
+			"castshadow" : false,
+			"clampuvs" : true,
+			"disablepropagation" : false,
+			"effects" : 
+			[
+				{
+					"file" : "effects/godrays/effect.json",
+					"id" : 19,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"noiseamount" : 0.82999998,
+								"noisescale" : 10,
+								"noisesmoothness" : 0.5,
+								"noisespeed" : 0.0099999998,
+								"raythreshold" : 1
+							},
+							"id" : 20,
+							"textures" : [ null, "masks/godrays_downsample2_mask_9a7a9e2c", null ]
+						},
+						{
+							"combos" : 
+							{
+								"SAMPLES" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"center" : "0.5 0.5",
+								"color" : "1 1 1",
+								"rayintensity" : 1.05,
+								"raylength" : 0.5
+							},
+							"id" : 23
+						},
+						{
+							"combos" : 
+							{
+								"KERNEL" : 0
+							},
+							"constantshadervalues" : 
+							{
+								"blurscale" : "1 1"
+							},
+							"id" : 24
+						},
+						{
+							"combos" : 
+							{
+								"KERNEL" : 0,
+								"VERTICAL" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"blurscale" : "1 1"
+							},
+							"id" : 25
+						},
+						{
+							"combos" : 
+							{
+								"BLENDMODE" : 31
+							},
+							"id" : 26
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/reflection/effect.json",
+					"id" : 59,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"alpha" : 0.47,
+								"direction" : 0.54486394,
+								"offset" : 0
+							},
+							"id" : 60,
+							"textures" : [ null, "masks/reflection_mask_eec6a2ad" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/shine/effect.json",
+					"id" : 90,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"noiseamount" : 0.0099999998,
+								"noisescale" : 10,
+								"noisespeed" : 1,
+								"raythreshold" : 0
+							},
+							"id" : 91,
+							"textures" : [ null, "masks/shine_downsample2_mask_d4209bce", null ]
+						},
+						{
+							"combos" : 
+							{
+								"EDGES" : 5,
+								"SAMPLES" : 3
+							},
+							"constantshadervalues" : 
+							{
+								"color" : "1 1 1",
+								"direction" : 1.5707964,
+								"rayintensity" : 1.0,
+								"raylength" : 0.1,
+								"speed" : 0
+							},
+							"id" : 92
+						},
+						{
+							"combos" : 
+							{
+								"KERNEL" : 2
+							},
+							"constantshadervalues" : 
+							{
+								"scale" : "0 0"
+							},
+							"id" : 93
+						},
+						{
+							"combos" : 
+							{
+								"KERNEL" : 2,
+								"VERTICAL" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"scale" : "0 0"
+							},
+							"id" : 94
+						},
+						{
+							"id" : 95
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterripple/effect.json",
+					"id" : 186,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"animationspeed" : 0.02,
+								"ratio" : 10,
+								"ripplestrength" : 0.059999999,
+								"scale" : 10,
+								"scrolldirection" : -1.1195962,
+								"scrollspeed" : 0.02
+							},
+							"id" : 187,
+							"textures" : [ null, "masks/waterripple_mask_5bd35625", "effects/waterripplenormal" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 14,
+			"image" : "models/4686831.json",
+			"locktransforms" : true,
+			"name" : "4686831",
+			"origin" : "1920.00000 540.00000 0.00000",
+			"size" : "3840.00000 1080.00000"
+		},
+		{
+			"disablepropagation" : false,
+			"id" : 173,
+			"instanceoverride" : 
+			{
+				"count" : 0.0099999998,
+				"id" : 174,
+				"speed" : 0.5
+			},
+			"name" : "new_particle_system_copy2",
+			"origin" : "960.49152 -353.07825 0.00000",
+			"particle" : "particles/new_particle_system_copy2.json",
+			"scale" : "3.37027 2.69960 1.00000",
+			"solid" : true
+		},
+		{
+			"angles" : "-0.00000 -0.00000 -0.24751",
+			"disablepropagation" : false,
+			"id" : 70,
+			"instanceoverride" : 
+			{
+				"count" : 0.07,
+				"id" : 72,
+				"speed" : 0.5
+			},
+			"name" : "new_particle_system_copy2",
+			"origin" : "132.33044 174.90796 0.00000",
+			"particle" : "particles/new_particle_system_copy2.json",
+			"scale" : "5.53672 1.82581 1.00000",
+			"solid" : true
+		},
+		{
+			"angles" : "0.00000 -0.00000 -2.87429",
+			"disablepropagation" : false,
+			"id" : 73,
+			"instanceoverride" : 
+			{
+				"count" : 0.07,
+				"speed" : 0.5
+			},
+			"name" : "new_particle_system_copy2",
+			"origin" : "1794.01270 -44.86295 0.00000",
+			"particle" : "particles/new_particle_system_copy2.json",
+			"scale" : "5.53672 1.82581 1.00000",
+			"solid" : true
+		},
+		{
+			"disablepropagation" : false,
+			"id" : 43,
+			"instanceoverride" : 
+			{
+				"count" : 0.14,
+				"id" : 44,
+				"lifetime" : 0.54000002,
+				"speed" : 5.0
+			},
+			"name" : "Shooting star",
+			"origin" : "744.09436 943.59338 0.00000",
+			"particle" : "particles/presets/shootingstar.json",
+			"solid" : true
+		},
+		{
+			"disablepropagation" : false,
+			"id" : 692,
+			"instanceoverride" : 
+			{
+				"count" : 0.11,
+				"id" : 693,
+				"rate" : 1.02,
+				"speed" : 2.24
+			},
+			"name" : "Shooting star",
+			"origin" : "475.15961 880.80890 0.00000",
+			"particle" : "particles/presets/shootingstar.json",
+			"scale" : "-1.00000 1.00000 1.00000",
+			"solid" : true
+		}
+	],
+	"version" : 1
+}
