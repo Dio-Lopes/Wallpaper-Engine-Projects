@@ -231,19 +231,34 @@
 			"size" : "3840.00000 1080.00000"
 		},
 		{
+			"disablepropagation" : false,
+			"id" : 176,
+			"instanceoverride" : 
+			{
+				"count" : 0.11,
+				"id" : 177,
+				"speed" : 0.30000001
+			},
+			"name" : "new_particle_system_copy2",
+			"origin" : "74.24185 105.55167 0.00000",
+			"particle" : "particles/new_particle_system_copy2.json",
+			"scale" : "1.69607 2.00000 1.00000",
+			"solid" : true
+		},
+		{
 			"angles" : "-0.00000 -0.00000 -0.00274",
 			"disablepropagation" : false,
 			"id" : 164,
 			"instanceoverride" : 
 			{
-				"count" : 0.07,
+				"count" : 0.17,
 				"id" : 165,
 				"speed" : 0.5
 			},
 			"name" : "new_particle_system_copy2",
-			"origin" : "872.62622 -22.78601 0.00000",
+			"origin" : "866.11353 -7.58960 0.00000",
 			"particle" : "particles/new_particle_system_copy2.json",
-			"scale" : "2.00000 1.78826 1.00000",
+			"scale" : "2.00000 2.00000 1.00000",
 			"solid" : true
 		},
 		{
@@ -258,56 +273,8 @@
 			"name" : "new_particle_system_copy2",
 			"origin" : "1592.42407 130.45471 0.00000",
 			"particle" : "particles/new_particle_system_copy2.json",
-			"scale" : "2.00000 2.00000 1.00000",
+			"scale" : "1.63095 2.00000 1.00000",
 			"solid" : true
-		},
-		{
-			"disablepropagation" : false,
-			"id" : 176,
-			"instanceoverride" : 
-			{
-				"count" : 0.0099999998,
-				"id" : 177,
-				"speed" : 0.30000001
-			},
-			"name" : "new_particle_system_copy2",
-			"origin" : "417.24512 -222.25513 0.00000",
-			"particle" : "particles/new_particle_system_copy2.json",
-			"scale" : "2.00000 2.00000 1.00000",
-			"solid" : true
-		},
-		{
-			"angles" : "0.00000 -0.00000 0.06594",
-			"disablepropagation" : false,
-			"id" : 179,
-			"instanceoverride" : 
-			{
-				"count" : 0.0099999998,
-				"id" : 180,
-				"speed" : 0.52999997
-			},
-			"name" : "new_particle_system_copy2",
-			"origin" : "1395.26440 -366.22003 0.00000",
-			"particle" : "particles/new_particle_system_copy2.json",
-			"scale" : "2.00000 1.95865 1.00000",
-			"solid" : true,
-			"visible" : false
-		},
-		{
-			"disablepropagation" : false,
-			"id" : 43,
-			"instanceoverride" : 
-			{
-				"count" : 0.14,
-				"id" : 44,
-				"lifetime" : 0.54000002,
-				"speed" : 5.0
-			},
-			"name" : "Shooting star",
-			"origin" : "744.09436 943.59338 0.00000",
-			"particle" : "particles/presets/shootingstar.json",
-			"solid" : true,
-			"visible" : false
 		},
 		{
 			"disablepropagation" : false,
