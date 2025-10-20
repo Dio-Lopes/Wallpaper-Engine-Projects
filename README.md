@@ -14,7 +14,9 @@ In the app, the projects should automatically appear in the Wallpaper Editor.
 Here I list all the projects in the repository so far.
 
 - [2 Part Night Sky (Moon)](https://steamcommunity.com/sharedfiles/filedetails/?id=3586894862)
+![2 Part Night Sky (Moon)](2_part_night_sky_moon/preview.jpg)
 - [2 Part Night Sky (Watchtower)](https://steamcommunity.com/sharedfiles/filedetails/?id=3586902297)
+![2 Part Night Sky (Watchtower)](2_part_night_sky_watchtower/preview.jpg)
 
 # Acknowledgements
 - This wouldn't be possible without the [repack tool](https://github.com/redpfire/we) from redpfire.
