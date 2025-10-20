@@ -22,8 +22,8 @@
 	"snapshotoverlay" : "",
 	"tags" : [ "Relaxing" ],
 	"title" : "2 Part Night Sky (Moon)",
-	"type" : "scene",
-	"version" : 3,
+	"type" : "Scene",
+	"version" : 4,
 	"visibility" : "public",
 	"workshopid" : "3586894862",
 	"workshopurl" : "steam://url/CommunityFilePage/3586894862"
