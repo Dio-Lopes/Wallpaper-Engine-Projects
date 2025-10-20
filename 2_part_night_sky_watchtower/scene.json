@@ -233,48 +233,48 @@
 		},
 		{
 			"disablepropagation" : false,
+			"id" : 70,
+			"instanceoverride" : 
+			{
+				"count" : 0.11,
+				"id" : 72,
+				"speed" : 0.30000001
+			},
+			"name" : "new_particle_system_copy2",
+			"origin" : "74.24185 105.55167 0.00000",
+			"particle" : "particles/new_particle_system_copy2.json",
+			"scale" : "1.69607 2.00000 1.00000",
+			"solid" : true
+		},
+		{
+			"angles" : "0.00000 0.00000 -0.00274",
+			"disablepropagation" : false,
 			"id" : 173,
 			"instanceoverride" : 
 			{
-				"count" : 0.0099999998,
+				"count" : 0.17,
 				"id" : 174,
 				"speed" : 0.5
 			},
 			"name" : "new_particle_system_copy2",
-			"origin" : "960.49152 -353.07825 0.00000",
+			"origin" : "866.11353 -7.58960 0.00000",
 			"particle" : "particles/new_particle_system_copy2.json",
-			"scale" : "3.37027 2.69960 1.00000",
+			"scale" : "1.32931 2.00000 1.00000",
 			"solid" : true
 		},
 		{
-			"angles" : "-0.00000 -0.00000 -0.24751",
-			"disablepropagation" : false,
-			"id" : 70,
-			"instanceoverride" : 
-			{
-				"count" : 0.07,
-				"id" : 72,
-				"speed" : 0.5
-			},
-			"name" : "new_particle_system_copy2",
-			"origin" : "132.33044 174.90796 0.00000",
-			"particle" : "particles/new_particle_system_copy2.json",
-			"scale" : "5.53672 1.82581 1.00000",
-			"solid" : true
-		},
-		{
-			"angles" : "0.00000 -0.00000 -2.87429",
 			"disablepropagation" : false,
 			"id" : 73,
 			"instanceoverride" : 
 			{
-				"count" : 0.07,
+				"count" : 0.11,
+				"id" : 44,
 				"speed" : 0.5
 			},
 			"name" : "new_particle_system_copy2",
-			"origin" : "1794.01270 -44.86295 0.00000",
+			"origin" : "1592.42407 130.45471 0.00000",
 			"particle" : "particles/new_particle_system_copy2.json",
-			"scale" : "5.53672 1.82581 1.00000",
+			"scale" : "1.63095 2.00000 1.00000",
 			"solid" : true
 		},
 		{
